@@ -1,0 +1,291 @@
+{
+	"General" : {
+		"ExperimentInfo" : "This dataset contains references to images and measured data on a lettuce crop growing in well controlled greenhouse conditions. There are 4 varieties and samples of the crop are destructively measured in a 7 days interval.",
+		"Varieties" : "Aphylion, Salanova, Satine, Lugano",
+		"Measurements" : {
+			"RGBImage" : {
+				"Info" : "Reference to a png-file with the rgb-image data",
+				"Unit" : "-"
+			},
+			"DebthInformation" : {
+				"Info" : "Reference to a file (with png-extension) that holds xyz-information for each pixel from the top view",
+				"Unit" : "-"
+			},
+			"FreshWeightShoot" : {
+				"Info" : "A head of lettuce, harvested from a hydroponic cultivation system has two parts, the 'root' and the 'shoot' The 'shoot' is the top part, being the edable part of the plant, starting at the attachment point of the first leaves",
+				"Unit" : "gram/plant"
+			},
+			"Height" : {
+				"Info" : "The height of the highest part of the plant, measured from the attachment point of the first leaves.",
+				"Unit" : "cm"
+			},
+			"Diameter" : {
+				"Info" : "The principal diameter of the projection of the lettuce plant on a horizontal surface",
+				"Unit" : "cm"
+			},
+			"LeafArea" : {
+				"Info" : "For the destructive measurements, leaves are torn from the stem and their surface projected on a horizontal surface are marked as LeafArea. Note that curly leaves in realitiy will have a notable larger area if all curvatures would be straighted. Obviously, the additional surface in these curvatures is discarded with this measurement.",
+				"Unit" : "cm2"
+			},
+			"DryWeightShoot" : {
+				"Info" : "After the fresh wait of all above ground parts is weighed and measured, all tissue is dried in a dry-oven. After 3 days of drying the remaining weight is mesured as dry weight of the shoot",
+				"Unit" : "gram/plant"
+			}
+		},
+		"Camera" : {
+			"Info" : "All images are obtained with a realsense camera type:\t",
+			"DeviceID" : "002422060160",
+			"DepthScale" : 0.00100000004749745,
+			"depth_int" : {
+				"height" : 1080,
+				"width" : 1920,
+				"ppx" : 973.902038574219,
+				"ppy" : 537.702270507812,
+				"fx" : 1371.58264160156,
+				"fy" : 1369.42761230469,
+				"coefs" : [ 0.0, 0.0, 0.0, 0.0, 0.0 ],
+				"model" : "distortion.inverse_brown_conrady"
+			},
+			"color_int" : {
+				"height" : 1080,
+				"width" : 1920,
+				"ppx" : 973.902038574219,
+				"ppy" : 537.702270507812,
+				"fx" : 1371.58264160156,
+				"fy" : 1369.42761230469,
+				"coefs" : [ 0.0, 0.0, 0.0, 0.0, 0.0 ],
+				"model" : "distortion.inverse_brown_conrady"
+			},
+			"ir_int" : {
+				"height" : 720,
+				"width" : 1280,
+				"ppx" : 637.933654785156,
+				"ppy" : 347.102325439453,
+				"fx" : 889.749572753906,
+				"fy" : 889.749572753906,
+				"coefs" : [ 0.0, 0.0, 0.0, 0.0, 0.0 ],
+				"model" : "distortion.brown_conrady"
+			},
+			"depth_to_color_ext" : {
+				"rotation" : [ 1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0 ],
+				"translation" : [ 0.0, 0.0, 0.0 ]
+			},
+			"ir_to_color_ext" : {
+				"rotation" : [
+					0.999989449977875,
+					-0.00311925541609526,
+					0.00337212649174035,
+					0.00313232676126063,
+					0.999987602233887,
+					-0.00387795572169125,
+					-0.00335998833179474,
+					0.00388847757130861,
+					0.99998676776886
+				],
+				"translation" : [ 0.0151169626042247, -2.81767242995556e-05, -0.000219923706026748 ]
+			}
+		}
+	},
+	"Measurements": {
+		"Image1" : {
+			"RGBImage" : "RGB_17.png",
+			"DebthInformation" : "Depth_17.png"
+		},
+		"Image2" : {			
+			"RGBImage" : "RGB_46.png",
+			"DebthInformation" : "Depth_46.png"
+		},		
+		"Image3" : {			
+			"RGBImage" : "RGB_169.png",
+			"DebthInformation" : "Depth_169.png"
+		},
+		"Image4" : {			
+			"RGBImage" : "RGB_175.png",
+			"DebthInformation" : "Depth_175.png"
+		},
+		"Image5" : {			
+			"RGBImage" : "RGB_261.png",
+			"DebthInformation" : "Depth_261.png"
+		},
+		"Image6" : {			
+			"RGBImage" : "RGB_344.png",
+			"DebthInformation" : "Depth_344.png"
+		},
+		"Image7" : {			
+			"RGBImage" : "RGB_345.png",
+			"DebthInformation" : "Depth_345.png"			
+		},
+		"Image8" : {			
+			"RGBImage" : "RGB_349.png",
+			"DebthInformation" : "Depth_349.png"
+		},
+		"Image9" : {			
+			"RGBImage" : "RGB_355.png",
+			"DebthInformation" : "Depth_355.png"
+		},
+		"Image10" : {			
+			"RGBImage" : "RGB_357.png",
+			"DebthInformation" : "Depth_357.png"			
+		},
+		"Image11" : {			
+			"RGBImage" : "RGB_359.png",
+			"DebthInformation" : "Depth_359.png"
+		},
+		"Image12" : {			
+			"RGBImage" : "RGB_8.png",
+			"DebthInformation" : "Depth_8.png"			
+		},
+		"Image13" : {			
+			"RGBImage" : "RGB_23.png",
+			"DebthInformation" : "Depth_23.png"			
+		},
+		"Image14" : {			
+			"RGBImage" : "RGB_30.png",
+			"DebthInformation" : "Depth_30.png"
+		},
+		"Image15" : {			
+			"RGBImage" : "RGB_75.png",
+			"DebthInformation" : "Depth_75.png"
+		},
+		"Image16" : {			
+			"RGBImage" : "RGB_134.png",
+			"DebthInformation" : "Depth_134.png"
+		},
+		"Image17" : {			
+			"RGBImage" : "RGB_205.png",
+			"DebthInformation" : "Depth_205.png"
+		},
+		"Image18" : {			
+			"RGBImage" : "RGB_241.png",
+			"DebthInformation" : "Depth_241.png"
+		},
+		"Image19" : {			
+			"RGBImage" : "RGB_244.png",
+			"DebthInformation" : "Depth_244.png"			
+		},
+		"Image20" : {			
+			"RGBImage" : "RGB_247.png",
+			"DebthInformation" : "Depth_247.png"			
+		},
+		"Image21" : {			
+			"RGBImage" : "RGB_249.png",
+			"DebthInformation" : "Depth_249.png"
+		},
+		"Image22" : {			
+			"RGBImage" : "RGB_290.png",
+			"DebthInformation" : "Depth_290.png"
+		},
+		"Image23" : {			
+			"RGBImage" : "RGB_306.png",
+			"DebthInformation" : "Depth_306.png"
+		},
+		"Image24" : {			
+			"RGBImage" : "RGB_2.png",
+			"DebthInformation" : "Depth_2.png"
+		},
+		"Image25" : {			
+			"RGBImage" : "RGB_62.png",
+			"DebthInformation" : "Depth_62.png"
+		},
+		"Image26" : {			
+			"RGBImage" : "RGB_66.png",
+			"DebthInformation" : "Depth_66.png"
+		},
+		"Image27" : {			
+			"RGBImage" : "RGB_120.png",
+			"DebthInformation" : "Depth_120.png"
+		},
+		"Image28" : {			
+			"RGBImage" : "RGB_124.png",
+			"DebthInformation" : "Depth_124.png"
+		},
+		"Image29" : {			
+			"RGBImage" : "RGB_130.png",
+			"DebthInformation" : "Depth_130.png"			
+		},
+		"Image30" : {			
+			"RGBImage" : "RGB_193.png",
+			"DebthInformation" : "Depth_193.png"
+		},
+		"Image31" : {			
+			"RGBImage" : "RGB_235.png",
+			"DebthInformation" : "Depth_235.png"
+		},
+		"Image32" : {			
+			"RGBImage" : "RGB_273.png",
+			"DebthInformation" : "Depth_273.png"
+		},
+		"Image33" : {			
+			"RGBImage" : "RGB_276.png",
+			"DebthInformation" : "Depth_276.png"
+		},
+		"Image34" : {			
+			"RGBImage" : "RGB_278.png",
+			"DebthInformation" : "Depth_278.png"
+		},
+		"Image35" : {			
+			"RGBImage" : "RGB_282.png",
+			"DebthInformation" : "Depth_282.png"
+		},
+		"Image36" : {			
+			"RGBImage" : "RGB_380.png",
+			"DebthInformation" : "Depth_380.png"
+		},
+		"Image37" : {			
+			"RGBImage" : "RGB_32.png",
+			"DebthInformation" : "Depth_32.png"
+		},
+		"Image38" : {			
+			"RGBImage" : "RGB_39.png",
+			"DebthInformation" : "Depth_39.png"
+		},
+		"Image39" : {			
+			"RGBImage" : "RGB_40.png",
+			"DebthInformation" : "Depth_40.png"
+		},
+		"Image40" : {			
+			"RGBImage" : "RGB_88.png",
+			"DebthInformation" : "Depth_88.png"
+		},
+		"Image41" : {			
+			"RGBImage" : "RGB_89.png",
+			"DebthInformation" : "Depth_89.png"
+		},
+		"Image42" : {			
+			"RGBImage" : "RGB_90.png",
+			"DebthInformation" : "Depth_90.png"
+		},
+		"Image43" : {			
+			"RGBImage" : "RGB_161.png",
+			"DebthInformation" : "Depth_161.png"
+		},
+		"Image44" : {			
+			"RGBImage" : "RGB_207.png",
+			"DebthInformation" : "Depth_207.png"
+		},
+		"Image45" : {			
+			"RGBImage" : "RGB_252.png",
+			"DebthInformation" : "Depth_252.png"
+		},
+		"Image46" : {			
+			"RGBImage" : "RGB_314.png",
+			"DebthInformation" : "Depth_314.png"
+		},
+		"Image47" : {			
+			"RGBImage" : "RGB_316.png",
+			"DebthInformation" : "Depth_316.png"
+		},
+		"Image48" : {			
+			"RGBImage" : "RGB_321.png",
+			"DebthInformation" : "Depth_321.png"
+		},
+		"Image49" : {			
+			"RGBImage" : "RGB_337.png",
+			"DebthInformation" : "Depth_337.png"
+		},
+		"Image50" : {			
+			"RGBImage" : "RGB_51.png",
+			"DebthInformation" : "Depth_51.png"			
+		}
+	}
+}
